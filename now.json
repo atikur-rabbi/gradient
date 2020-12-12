@@ -1,7 +1,7 @@
 {
     "version": 2,
     "builds": [{
-        "src": "src/*.js",
+        "src": "src/index.js",
         "use": "@now/node",
         "config": {
             "helpers": false
