@@ -1,0 +1,20 @@
+{
+  "name": "gradient",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "micro",
+    "dev": "micro-dev"
+  },
+  "author": "Atik",
+  "license": "MIT",
+  "dependencies": {
+    "color": "^2.0.0",
+    "micro": "^8.0.1",
+    "sharp": "^0.24.1",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "micro-dev": "^1.1.0"
+  }
+}
