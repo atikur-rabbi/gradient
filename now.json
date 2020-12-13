@@ -1,7 +1,7 @@
 {
     "version": 2,
     "builds": [{
-        "src": "src/index.js",
+        "src": "index.js",
         "use": "@now/node",
         "config": {
             "helpers": false
@@ -9,6 +9,6 @@
     }],
     "routes": [{
         "src": "/.*",
-        "dest": "/src/index.js"
+        "dest": "index.js"
     }]
 }
