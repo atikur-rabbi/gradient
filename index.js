@@ -13,9 +13,9 @@ app.use(express.json());
 app.get("*", async function(req, res) {  
   let { pathname, query } = url.parse(req.url, true)
   if (pathname === '/favicon.ico') {
-    // return ''
+    pathname = Math.random().toString()
   }
-  console.log(pathname)
+  // console.log(pathname)
   if (pathname === '/') {
     pathname = Math.random().toString()
   } else {
